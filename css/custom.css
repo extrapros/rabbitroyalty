@@ -1,0 +1,145 @@
+/*
+Author:         WRA
+Author URI:     http://www.thegardenwegrow.com/
+Version:	   	0.1
+Project:
+Description:
+*/
+
+/*
+---------------------------------------------------------------------------------------
+TABLE OF CONTENTS
+	-- RESETS
+	-- BASICS
+	-- STRUCTURE
+	-- CUSTOM
+---------------------------------------------------------------------------------------
+*/
+
+
+/*---------------------------------------------------------------------------------------
+--- RESETS
+---------------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+	p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style-type: none;
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	:focus {
+		outline: 0;
+	}
+	ins {
+		text-decoration: none;
+	}
+	del {
+		text-decoration: line-through;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+
+/*---------------------------------------------------------------------------------------
+--- BASICS / BASIC FUNCTIONS
+---------------------------------------------------------------------------------------*/
+
+html{	min-height:100%;}
+body{	background-image: url(../images/ground.jpg);	font-size:62.5%; color:#666;}
+
+a{ text-decoration:none; color:#231f20;}
+a:hover{ }
+a:active{ }
+a:visited{ }
+
+ul{ list-style-type: none; text-decoration: none;}
+
+.left{	float:left; }
+.right{	float:right; }
+.clear{	clear:both; }
+.padding{	padding:10px; }
+
+img.left{	margin:0 1em 1em 0; }
+img.right{	margin:0 0 1em 1em; }
+
+
+
+/*---------------------------------------------------------------------------------------
+--- STRUCTURE					 
+---------------------------------------------------------------------------------------*/
+
+#container{ margin:0 auto; display:block; position:relative; height:auto; width:800px;}
+#content{ width:500px; height:auto; margin:0 auto; display: block; position: relative;}
+
+#nav{ }
+
+#header{ }
+#footer{ clear:both; }
+
+#right{ }
+#left{ }
+
+.top1{ margin-top:20px;}
+.top2{ margin-top:40px;}
+.top3{ margin-top:60px;}
+.top4{ margin-top:80px;}
+.top5{ margin-top:90px;}
+
+.right1{ margin-left:20px;}
+.right2{ margin-left:40px;}
+.right3{ margin-left:60px;}
+.right4{ margin-left:80px;}
+.right5{ margin-left:90px;}
+
+.left1{ margin-right:20px;}
+.left2{ margin-right:40px;}
+.left3{ margin-right:60px;}
+.left4{ margin-right:80px;}
+.left5{ margin-right:90px;}
+
+/*---------------------------------------------------------------------------------------
+---CUSTOM [ STYLING FOR TEXT AND STRUCTURE ]
+---------------------------------------------------------------------------------------*/
+
+
+
+/* HOME */
+
+#logo{  width:589px; height:292px; position:relative; background:url(../images/logo.png) no-repeat; top:100px; margin:0 auto; }
+#logo a{ display:block; width:589px; height:292px}
+
+#content.home { margin-top:130px; margin-bottom: 30px; text-align:center; letter-spacing:1px; font:normal 8pt Verdana, Helvetica, Arial, Serif; color:#231f20;}
+#content.home a:hover{ color:#5c5255; }
+
+#content p a{ text-transform:none;}
+
+#comingSoon { width:189px; height:163px; position: absolute; left: 500px; top: 270px; background-image: url(../images/coming_soon.png);}
+
